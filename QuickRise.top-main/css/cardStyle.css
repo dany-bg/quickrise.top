@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+ 
+ :root{
+    --accent-color:#35A7F0;
+}
+ 
  body {
 	 --background-color: #1b1818;
 	 --text-color: #aaa1a1;
@@ -16,9 +21,9 @@
 	 --card-icon-background-color: rgba(255, 255, 255, 0.08);
 	 --card-icon-border-color: rgba(255, 255, 255, 0.12);
 	 --card-shine-opacity: 0.1;
-	 --card-shine-gradient: conic-gradient(from 205deg at 50% 50%, rgba(185, 50, 16, 0) 0deg, rgb(236, 33, 46) 25deg, rgba(236, 33, 47, 0.388) 295deg, rgba(236, 33, 46, 0) 360deg);
+	 --card-shine-gradient: conic-gradient(from 205deg at 50% 50%, rgba(185, 50, 16, 0) 0deg, var(--accent-color) 25deg, rgba(33, 43, 236, 0.388) 295deg, rgba(236, 33, 46, 0) 360deg);
 	 --card-line-color: #2c2a2a;
-	 --card-tile-color: rgba(236, 33, 46, 0.05);
+	 --card-tile-color: rgba(33, 43, 236, 0.05);
 	 --card-hover-border-color: rgba(255, 255, 255, 0.2);
 	 --card-hover-box-shadow-1: rgba(0, 0, 0, 0.04);
 	 --card-hover-box-shadow-1-y: 5px;
@@ -26,9 +31,9 @@
 	 --card-hover-box-shadow-2: rgba(0, 0, 0, 0.3);
 	 --card-hover-box-shadow-2-y: 15px;
 	 --card-hover-box-shadow-2-blur: 25px;
-	 --card-hover-icon-color: #ec212e;
-	 --card-hover-icon-background-color: rgba(255, 22, 38, 0.1);
-	 --card-hover-icon-border-color: rgba(255, 15, 31, 0.337);
+	 --card-hover-icon-color: var(--accent-color);
+	 --card-hover-icon-background-color: rgba(33, 22, 255, 0.1);
+	 --card-hover-icon-border-color: rgba(33, 15, 255, 0.337);
 	 --blur-opacity: 0.01;
 }
 
