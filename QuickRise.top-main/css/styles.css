@@ -75,7 +75,7 @@ header{
 }
 
 .nav-bar{
-    margin-left: 600px;
+    margin-left: 22rem;
     display:flex;
     flex-direction: row;
     gap:70px;
@@ -87,7 +87,7 @@ header{
     font-size: 16px;
     display: inline-block;
     position: relative;
-    font-weight: 900;
+    font-weight: 1200;
     letter-spacing: 0.14rem;
 }
 
@@ -197,10 +197,6 @@ header{
     color:white;
     text-decoration: none;
 }
-
-
-
-
 
 .main{
     margin-top:250px;
