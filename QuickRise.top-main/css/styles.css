@@ -3,6 +3,7 @@
 
 :root{
     --accent-color:#35A7F0;
+    --gradient:linear-gradient(to right, #35A7F0, #B100E8);
 }
 
 *{
@@ -118,7 +119,7 @@ header{
 
 .contact-us{
     color:white;
-    background:var(--accent-color);
+    background:var(--gradient);
     padding: 15px 35px;
     border-radius: 30px;
     border: 1px solid black;
@@ -177,9 +178,7 @@ header{
     text-align: center;
     z-index: -1;
     font-size:12vmin;
-    background-image:linear-gradient(to right,
-        rgb(255, 0, 0), rgb(255, 194, 194),rgb(255, 0, 0)
-    );
+    background-image:linear-gradient(to right, #35A7F0, #4A8BEF, #5E6FED, #7354EC, #8838EB, #9C1CE9, #B100E8);
     -webkit-background-clip:text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -449,24 +448,21 @@ footer{
     font-size: 1.15rem;
 }
 
-.btn{
-    border: 1px solid var(--accent-color);
-    background-color: transparent;
-    align-items: center;
+.btn {
+    background:var(--gradient);
+    border: none;
     color: white;
-    padding:15px 24px 15px 18px;
+    padding: 15px 24px;
     font-size: 16px;
-    border: black; 
-    opacity: 0.8; 
-}
-.btn:hover{
-    background-color: var(--accent-color);
-    transition:all 300ms ease-in-out;
-    color: rgba(255, 255, 255, 1);
-    box-shadow: 4px 10px 20px rgba(33, 15, 255, 0.337);
+    opacity: 0.8;
     border-radius: 30px;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
 }
-
+.btn:hover {
+    opacity: 1;
+    box-shadow: 4px 10px 20px rgba(33, 15, 255, 0.337);
+}
 @media screen and (max-width: 992px){
     nav{
         display:none;
